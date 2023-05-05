@@ -1,4 +1,7 @@
 # gomezAngular.github.io
+
+PLEASE VIEW README IN CODE
+
 This task is to create simple app that has 4 main feature components (Home, Tasks, News and Tools) and supports routing between components. Routing utilizes lazy loading of each of the components and incorporate bootstraps.
 
 This is a project a company provided me for an intial interview and provided the following instructions:
