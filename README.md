@@ -35,17 +35,11 @@ home component using the cli in the root folder (–flat) You can get the title 
 from the current app.component.html. This component should be loaded as the default empty path
 route in the routing module.
 Add a variable for the variable called title that the html template expects.
+
 Remaining Components
-For each of the other components, use the cli to
-generate a module with routing
-then generate a component.
+For each of the other components, use the cli to generate a module with routing then generate a component.
 There should be 3 more components: TaskComponent, NewsComponent and ToolsComponent.
 They should end up in their own folders. /task, /news, /tools
-Add each feature module to the app routing file using the lazy loading syntax loadChildren instead of
-just specifying the component like you did with the home component. Remember to remove the
-component declaration from the app module because we want the component lazy loaded and not
-loaded at the app level.
-Add a default empty path in each areas feature module routing class to load that feature component.
-Add some html to each components html like I did with each of them having a title in an <h2> and
-bootstrap card layouts for the content. The content does not have to be exactly like mine and other than
-the correct title it can be whatever you want.
+Add each feature module to the app routing file using the lazy loading syntax loadChildren instead of just specifying the component like you did with the home component. Remember to remove the component declaration from the app module because we want the component lazy loaded and not loaded at the app level. Add a default empty path in each areas feature module routing class to load that feature component. Add some html to each components html like I did with each of them having a title in an <h2> and bootstrap card layouts for the content. 
+
+In CMD utilize $ng serve --open to open and view the site. If you decided to right click the angular project folder and open with > visual studio (or any IDE) the play button should load the project!
